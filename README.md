@@ -1,5 +1,6 @@
 # Dirr landing page
 
+- Website deployment: https://dash.cloudflare.com/1a11d24c9787142584165a91da34ff0f/pages/view/dirr 
 - Dirr app: https://github.com/ben-xD/dirr
 
 ## Usage
