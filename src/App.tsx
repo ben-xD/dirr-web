@@ -1,4 +1,6 @@
 import logo from './assets/logo.jpg'
+import googlePlay from './assets/badges/google_play.png';
+import appleStore from './assets/badges/apple.svg';
 
 function App() {
     return (
@@ -25,9 +27,9 @@ function App() {
             </div>
                 <div>
 {/*Generated using https://tools.applemediaservices.com/app-store/*/}
-<a className="inline-block h-16" href="https://apps.apple.com/gb/app/dirr/id6444596100?itsct=apps_box_badge&amp;itscg=30200"><img className="p-2.5 h-16" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1669593600?h=626b1333341609700e14944b609ea886" alt="Download on the App Store"/></a>
+<a className="inline-block h-16" href="https://apps.apple.com/gb/app/dirr/id6444596100?itsct=apps_box_badge&amp;itscg=30200"><img className="p-2.5 h-16" src={appleStore} alt="Download on the App Store"/></a>
 {/*Generated using https://play.google.com/intl/en_us/badges/*/}
-<a className="inline-block" href='https://play.google.com/store/apps/details?id=uk.orth.dirr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' className="h-16" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+<a className="inline-block" href='https://play.google.com/store/apps/details?id=uk.orth.dirr&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' className="h-16" src={googlePlay}/></a>
                 </div>
         </div>
     )
