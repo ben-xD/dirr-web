@@ -17,6 +17,5 @@
 
 ## TODOs
 
-- [ ] Fix appearance on mobile
 - [ ] Show results for http://linter.structured-data.org/?url=dirr.orth.uk and https://developers.google.com/search/docs/appearance/structured-data using https://developer.chrome.com/docs/lighthouse/seo/structured-data/?utm_source=lighthouse&utm_medium=devtools
 - [ ] Show results for embeds (see linkedin and facebook tools)
