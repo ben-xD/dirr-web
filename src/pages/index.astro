@@ -6,6 +6,7 @@ import Hero from "../Components/Hero/Hero";
 import Footer from "../Components/Footer/Footer";
 import Features from "../Components/Features/Features";
 import Feedback from "../Components/Feedback/Feedback";
+import homeLightScreenshot from '../assets/product/home_light.jpg';
 
 console.log('This runs in your terminal, not the browser!');
 ---
@@ -13,9 +14,14 @@ console.log('This runs in your terminal, not the browser!');
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Dirr: GPS, orientation and RPY (roll, pitch, yaw) app.">
+    <meta name="description" content="Dirr: GPS, compass and RPY (roll, pitch, yaw) app.">
     <link rel="icon" type="image/svg+xml" href="/logo_lowpoly.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Dirr: GPS, compass and RPY app." />
+    <meta property="og:description" content="View, store and share sensor data: latitude, longitude, altitude, roll, pitch, yaw (heading), compass and more..." />
+    <meta property="og:image" content={homeLightScreenshot} />
+
     <!-- Load fonts in html instead of CSS @import to workaround missing fonts on mobile. See https://stackoverflow.com/questions/25741042/google-fonts-not-loading-on-mobile -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

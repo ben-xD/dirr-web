@@ -14,9 +14,3 @@
 ## How this repo was started
 - Create React, Typescript, Vite starter files: `npm create vite@latest . -- --template react-ts`, following https://vitejs.dev/guide/
 - Install tailwind, following: https://tailwindcss.com/docs/guides/vite
-
-## TODOs
-
-- [ ] Add Open graph metadata and test with 
-- [ ] Show results for http://linter.structured-data.org/?url=dirr.orth.uk and https://developers.google.com/search/docs/appearance/structured-data using https://developer.chrome.com/docs/lighthouse/seo/structured-data/?utm_source=lighthouse&utm_medium=devtools
-- [ ] Show results for embeds (see linkedin and facebook tools)dx
