@@ -23,7 +23,7 @@ export default function Hero() {
                             alt='Get it on Google Play' className="h-24" src={googlePlay}/></a>
                     </div>
                 </div>
-                <img src={homeLight} className="max-w-sm rounded-lg shadow-2xl" alt="Screenshot of Dirr app"/>
+                <img src={homeLight} className="max-w-[60%] md:max-w-[30%] rounded-lg shadow-2xl" alt="Screenshot of Dirr app"/>
             </div>
         </div>
     </div>;
