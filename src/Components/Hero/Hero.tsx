@@ -12,7 +12,7 @@ export default function Hero() {
                         GPS and orientation app
                     </h1>
                     <h2 className="text-purple-800 italic">Latitude, longitude, altitude, roll, pitch, yaw (heading) and compass...</h2>
-                    <div className="my-12 flex justify-center">
+                    <div className="my-12 flex justify-center flex-wrap">
                         {/*Generated using https://tools.applemediaservices.com/app-store/*/}
                         <a className="inline-block"
                            href="https://apps.apple.com/gb/app/dirr/id6444596100?itsct=apps_box_badge&amp;itscg=30200"><img
