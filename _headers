@@ -1,3 +1,0 @@
-# Fix error: Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cloudflareinsights.com/cdn-cgi/rum. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 200.
-*
-    Access-Control-Allow-Origin: *
