@@ -1,0 +1,29 @@
+---
+// Welcome to Astro! Everything between these triple-dash code fences
+// is your "component front matter". It never runs in the browser.
+import Navbar from "../Components/Navbar/Navbar";
+import Hero from "../Components/Hero/Hero";
+import Footer from "../Components/Footer/Footer";
+import Features from "../Components/Features/Features";
+import Feedback from "../Components/Feedback/Feedback";
+
+console.log('This runs in your terminal, not the browser!');
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirr - GPS, Compass, RPY</title>
+  </head>
+  <body>
+    <div class="min-h-screen">
+      <Navbar />
+      <Hero/>
+      <Features/>
+      <Feedback/>
+      <Footer/>
+  </div>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-export const Features = () => {
+const Features = () => {
     return <div className="container text-purple-800 my-16 bg-purple-50 py-8 rounded-xl">
         <h2 className="text-5xl my-4 font-PatrickHand text-purple-800 text-center">Features</h2>
         <div className="grid grid-rows-4 lg:grid-rows-2 grid-flow-col gap-4 justify-center">
@@ -29,3 +29,4 @@ export const Features = () => {
         </div>
     </div>;
 }
+export default Features;

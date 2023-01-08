@@ -1,4 +1,4 @@
-export const Feedback = () => {
+const Feedback = () => {
     return <div className="container text-purple-800 my-16">
         <div className="hero">
             <div className="hero-content text-center">
@@ -12,5 +12,6 @@ export const Feedback = () => {
             </div>
         </div>
     </div>;
-
 }
+
+export default Feedback;

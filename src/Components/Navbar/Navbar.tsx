@@ -1,7 +1,7 @@
 import logo from "../../assets/logo/logo_lowpoly.svg";
 import React from "react";
 
-export const Navbar: React.FC = () => {
+const Navbar: React.FC = () => {
     return <>
         <header>
             <nav className="container flex">
@@ -13,3 +13,4 @@ export const Navbar: React.FC = () => {
         </header>
     </>
 }
+export default Navbar;

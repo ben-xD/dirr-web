@@ -3,7 +3,7 @@ import googlePlay from "../../assets/badges/google_play.png";
 import homeLight from "../../assets/product/home_light.jpg";
 
 
-export function Hero() {
+export default function Hero() {
     return <div className="container">
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row">
@@ -23,7 +23,7 @@ export function Hero() {
                             alt='Get it on Google Play' className="h-24" src={googlePlay}/></a>
                     </div>
                 </div>
-                <img src={homeLight} className="max-w-sm rounded-lg shadow-2xl" />
+                <img src={homeLight} className="max-w-sm rounded-lg shadow-2xl" alt="Screenshot of Dirr app"/>
             </div>
         </div>
     </div>;
