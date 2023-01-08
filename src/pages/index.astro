@@ -16,9 +16,11 @@ console.log('This runs in your terminal, not the browser!');
     <meta name="description" content="Dirr: GPS, orientation and RPY (roll, pitch, yaw) app.">
     <link rel="icon" type="image/svg+xml" href="/logo_lowpoly.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use fonts in html instead of in CSS to workaround missing fonts on mobile. See https://stackoverflow.com/questions/25741042/google-fonts-not-loading-on-mobile -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' https://*; child-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://static.cloudflareinsights.com/; connect-src 'self' https://cloudflareinsights.com/;" />
+      content="default-src 'self' https://fonts.gstatic.com; img-src 'self' https://*; child-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://static.cloudflareinsights.com/; connect-src 'self' https://cloudflareinsights.com/;" />
     <title>Dirr - GPS, Compass, RPY</title>
   </head>
   <body>
