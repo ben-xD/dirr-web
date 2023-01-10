@@ -1,6 +1,7 @@
 import appleStore from "../../assets/badges/apple.svg";
 import googlePlay from "../../assets/badges/google_play.png";
 import homeLight from "../../assets/product/home_light.jpg";
+import homeDark from "../../assets/product/home_dark.jpg";
 
 
 export default function Hero() {
@@ -23,7 +24,10 @@ export default function Hero() {
                                 alt='Get it on Google Play' className="h-24" src={googlePlay} /></a>
                     </div>
                 </div>
-                <img src={homeLight} className="max-w-[60%] md:max-w-[30%] rounded-lg shadow-2xl" alt="Screenshot of Dirr app" />
+                <picture className="max-w-[60%] md:max-w-[30%] rounded-lg shadow-2xl">
+                    <source srcSet={homeDark} media="(prefers-color-scheme: dark)"/>
+                    <img src={homeLight} alt="Screenshot of Dirr app" />
+                </picture>
             </div>
         </div>
     </div>;
