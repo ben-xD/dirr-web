@@ -2,7 +2,7 @@ import logo from "../../assets/logo/logo_lowpoly.svg";
 
 const Footer = () => {
     return <>
-        <footer className="sticky top-[100vh] flex items-center bg-purple-700 text-neutral-content">
+        <footer className="sticky top-[100vh] flex items-center bg-purple-700 text-purple-50">
             <div className="container footer gap-y-0 space-y-4 md:space-y-0 my-4">
                 <div className="items-center grid-flow-col mx-4 place-self-center md:place-self-start">
                     <img src={logo} className="img-fluid h-8 pr-4 mb-2 mt-2" alt="Dirr" />
