@@ -8,10 +8,10 @@ export default function Hero() {
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="mx-8">
-                    <h1 className="text-3xl md:text-6xl font-bold text-purple-800 my-4 font-PatrickHand">
-                        GPS and orientation app
+                    <h1 className="text-3xl font-bold text-purple-800 my-4 font-PatrickHand">
+                        Read, save and share your position and orientation privately
                     </h1>
-                    <h2 className="text-purple-800 italic">Latitude, longitude, altitude, roll, pitch, yaw (heading), compass and more...</h2>
+                    <h2 className="text-purple-600 text-md">Supports GPS/GNSS (latitude, longitude, altitude), roll, pitch, yaw / heading, compass, accuracy data and more...</h2>
                     <div className="my-12 flex justify-center flex-wrap">
                         {/*Generated using https://tools.applemediaservices.com/app-store/*/}
                         <a className="inline-block"
