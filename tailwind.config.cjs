@@ -1,4 +1,5 @@
 const DaisyUI = require("daisyui");
+const cssnano = require('cssnano');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -35,6 +36,6 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [DaisyUI],
+  plugins: [DaisyUI, cssnano()],
   daisyui: {}
 }
