@@ -11,7 +11,7 @@ export default function Hero() {
                     <h1 className="text-3xl font-bold dark:text-purple-50 text-purple-800 my-4 font-PatrickHand">
                         Read, save and share your position and orientation privately
                     </h1>
-                    <h2 className="text-purple-600 dark:text-purple-100 text-md">Supports GPS/GNSS (latitude, longitude, altitude), roll, pitch, yaw / heading, compass, accuracy data and more...</h2>
+                    <h2 className="text-purple-600 dark:text-purple-100 text-md">Supports GPS/GNSS (latitude, longitude, altitude), RPY (roll, pitch, yaw / heading), compass, accuracy data and more...</h2>
                     <div className="my-12 flex justify-center flex-wrap">
                         {/*Generated using https://tools.applemediaservices.com/app-store/*/}
                         <a className="inline-block"
