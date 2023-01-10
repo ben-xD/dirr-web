@@ -24,9 +24,9 @@ export default function Hero() {
                                 alt='Get it on Google Play' className="h-24" src={googlePlay} /></a>
                     </div>
                 </div>
-                <picture className="max-w-[60%] md:max-w-[30%] rounded-lg shadow-2xl">
-                    <source srcSet={homeDark} media="(prefers-color-scheme: dark)"/>
-                    <img src={homeLight} alt="Screenshot of Dirr app" />
+                <picture className="max-w-[60%] md:max-w-[30%] shadow-2xl">
+                    <source srcSet={homeDark} className="rounded-lg" media="(prefers-color-scheme: dark)"/>
+                    <img src={homeLight} className="rounded-lg" alt="Screenshot of Dirr app" />
                 </picture>
             </div>
         </div>
