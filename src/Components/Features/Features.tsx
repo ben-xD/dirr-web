@@ -1,6 +1,6 @@
 const Features = () => {
-    return <div className="container text-purple-800 my-16 bg-purple-50 py-8 rounded-xl">
-        <h2 className="text-5xl my-4 font-PatrickHand text-purple-800 text-center">Features</h2>
+    return <div className="container text-purple-800 dark:text-purple-100 my-16 bg-purple-50 dark:bg-purple-800/80 py-8 rounded-xl">
+        <h2 className="text-5xl my-4 font-PatrickHand text-purple-800 dark:text-purple-50 text-center">Features</h2>
         <div className="grid grid-rows-4 lg:grid-rows-2 grid-flow-col gap-4 justify-center">
             <div className="card w-80 bg-base-100 shadow-xl  mx-4 my-4">
                 <div className="card-body">
